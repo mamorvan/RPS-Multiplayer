@@ -6,11 +6,20 @@ body {
 	text-align: center;
 	font-family: "Fredericka the Great", sans-serif;
 }
-
+/*h1 for header*/
 h1 {
 	color: #4F738B;
-	font-size: 50px;
+	font-size: 70px;
 	letter-spacing: 5px;
+}
+/*h2 for results and directions*/
+/*h3 for player names and wins/losses*/
+/*h4 for choice buttons*/
+h4 {
+	border: 2px solid #314876;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
 }
 
 #playerName ,#chatText{
@@ -28,10 +37,14 @@ h1 {
 }
 
 #player1Area, #resultsArea, #player2Area {
-	height: 200px;
+	height: 270px;
 	border: 5px solid #314876;
 	background-color: #4F738B;
 	margin: 50px 20px;
+}
+
+#choices1, #choices2 {
+	height: 150px;
 }
 
 #chatArea {
